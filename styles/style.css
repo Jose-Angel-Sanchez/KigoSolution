@@ -54,7 +54,6 @@ q:before, q:after {
   width: 20em;
   align-self: center;
   padding-left: 5em;
-  filter: grayscale(100%) brightness(100%);
 }
 .header_img{  
   display: flex;
@@ -214,4 +213,36 @@ main h2{
 .Emergencia_section img{
   width: 2em;
   height: 2em;
+}
+.whitespace{
+  display: flex;
+  height: 6em;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #A70000;
+  color: #FFFFFF;
+  height: 12em;
+  width: 100%;
+}
+.Kigo_inicio_link{
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  align-self: center;
+  padding-left: 5em;
+}
+.rs_footer{
+  width: 1em;
+  height: 1em;
+}
+.iconos-social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
 }
